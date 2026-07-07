@@ -1,14 +1,17 @@
 # FormPop
 
-Remplissage automatique et instantané de formulaires — 100% local, aucune donnée envoyée nulle part.
+Remplissage automatique et instantané de formulaires — **100% local, aucune donnée envoyée nulle part.**
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Chrome Extension](https://img.shields.io/badge/platform-Chrome%20Extension-yellow.svg)
 
 ## Installation (mode développeur)
 
-1. Dézippe le dossier `formpop`.
+1. Clone ou télécharge le dossier `formpop`.
 2. Va sur `chrome://extensions`.
 3. Active le **Mode développeur** (en haut à droite).
 4. Clique sur **Charger l'extension non empaquetée**.
-5. Sélectionne le dossier `formpop` dézippé.
+5. Sélectionne le dossier `formpop`.
 6. L'icône FormPop apparaît dans la barre d'outils — épingle-la si besoin.
 
 ## Utilisation
@@ -61,6 +64,24 @@ automatiquement s'il est présent, avec repli sur le moteur actuel sinon.
 
 FormPop ne fait aucun appel réseau. Toute la génération de données et de fichiers se fait localement dans le navigateur, dans le contexte de l'onglet actif (`activeTab`).
 
+## Contribuer
+
+Les contributions sont les bienvenues, qu'il s'agisse de corriger un bug, ajouter des synonymes de détection, ou proposer une nouvelle fonctionnalité !
+
+Consulte [CONTRIBUTING.md](CONTRIBUTING.md) pour savoir comment démarrer, et jette un œil aux [issues ouvertes](../../issues) — notamment celles marquées `good first issue`.
+
+Des idées de contributions bienvenues :
+- Support des `contenteditable` (Quill/TipTap).
+- Nouveaux synonymes multilingues pour le moteur de détection.
+- Gestion des iframes same-origin.
+- Tests automatisés sur des formulaires réels.
+
+## Licence
+
+Ce projet est sous licence [MIT](LICENSE) — libre d'utilisation, de modification et de redistribution.
+
 ---
 
-Fais par toi, pour toi ☕ — un lien vers le site officiel et une page de don (Ko-fi) sont dans le footer du popup ; remplace les URLs placeholder par les tiennes dans `popup.html` quand ton site sera prêt.
+Fait par [Nelson Galley](https://www.nelsongalley.online/fr) — [LinkedIn](https://www.linkedin.com/in/nelson-galley) — [GitHub](https://github.com/Nels-G)
+
+☕ Une page de don (Ko-fi) sera ajoutée prochainement.
