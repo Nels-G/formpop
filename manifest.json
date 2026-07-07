@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "FormPop — Remplissage Auto de Formulaires",
+  "version": "1.0.0",
+  "description": "Remplit instantanément tous les champs d'un formulaire (texte, email, téléphone, fichiers, images...) avec des données fictives réalistes. 100% local, aucune donnée envoyée nulle part.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "FormPop",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

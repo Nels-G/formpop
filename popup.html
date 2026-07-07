@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>FormPop</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo-dot"></div>
+        <h1>FormPop</h1>
+      </div>
+      <p class="tagline">Remplissage instantané, 100% local.</p>
+    </header>
+
+    <main class="app-main">
+      <button id="populateBtn" class="primary-btn">
+        <span class="btn-icon">⚡</span>
+        <span class="btn-label">Remplir le formulaire</span>
+      </button>
+
+      <p id="statusMsg" class="status-msg"></p>
+
+      <div class="options">
+        <div class="option-row">
+          <div class="option-text">
+            <span class="option-title">Inclure des fichiers factices</span>
+            <span class="option-sub">Images / PDF pour les champs d'upload</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="toggleFiles" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="option-row">
+          <div class="option-text">
+            <span class="option-title">Textes longs</span>
+            <span class="option-sub">Génère des paragraphes pour tester l'UI</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="toggleLongText" />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="option-row">
+          <div class="option-text">
+            <span class="option-title">Cocher cases &amp; radios</span>
+            <span class="option-sub">Sélectionne des options aléatoires</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="toggleChoices" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <p class="hint">Reclique sur « Remplir » pour régénérer de nouvelles données.</p>
+    </main>
+
+    <footer class="app-footer">
+      <!-- <a class="site-link" href="https://formpop.app" target="_blank" rel="noopener">🌐 Site officiel (bientôt)</a> -->
+      <a class="coffee-link" href="https://ko-fi.com/formpop" target="_blank" rel="noopener">
+        Enjoying FormPop? Support the dev ☕
+      </a>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
